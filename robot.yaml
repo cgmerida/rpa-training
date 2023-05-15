@@ -3,7 +3,23 @@
 
 tasks:
     # Task names here are used when executing the bots, so renaming these is recommended.
-    Run testing Tasks:
+    # Run testing Tasks:
+    #     command:
+    #         - python
+    #         - -m
+    #         - robot
+    #         - --report
+    #         - NONE
+    #         - --outputdir
+    #         - output
+    #         - --logtitle
+    #         - Task log
+    #         - robot/secrets.robot
+
+    # Alternative
+    # shell: python -m robot --report NONE --outputdir output  --logtitle "Tasks" output robot/secrets.robot
+
+    User Input Step One:
         command:
             - python
             - -m
@@ -14,10 +30,20 @@ tasks:
             - output
             - --logtitle
             - Task log
-            - robot/secrets.robot
+            - robot/work-items-1.robot
 
-    # Alternative
-    # shell: python -m robot --report NONE --outputdir output  --logtitle "Tasks" output robot/secrets.robot
+    # Caption Convert Step Two:
+    #     command:
+    #         - python
+    #         - -m
+    #         - robot
+    #         - --report
+    #         - NONE
+    #         - --outputdir
+    #         - output
+    #         - --logtitle
+    #         - Task log
+    #         - robot/work-items-2.robot
 
 condaConfigFile: conda.yaml
 
