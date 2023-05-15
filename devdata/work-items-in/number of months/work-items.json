@@ -1,10 +1,11 @@
 [
   {
-      "payload": {
-         "message": "Hello World!"
-      },
-      "files": {
-          "orders.xlsx": "orders.xlsx"
-      }
+    "payload": {
+      "message": "Hello World!",
+      "number of months": "From local item"
+    },
+    "files": {
+      "orders.xlsx": "orders.xlsx"
+    }
   }
 ]
