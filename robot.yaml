@@ -14,10 +14,10 @@ tasks:
         - output
         - --logtitle
         - Task log
-        - tasks.robot
+        - robot/secrets.robot
 
     # Alternative
-    # shell: python -m robot --report NONE --outputdir --task-name "Tasks" output tasks.robot
+    # shell: python -m robot --report NONE --outputdir output  --logtitle "Tasks" output robot/secrets.robot
 
 condaConfigFile: conda.yaml
 
