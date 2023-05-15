@@ -4,17 +4,17 @@
 tasks:
     # Task names here are used when executing the bots, so renaming these is recommended.
     Run testing Tasks:
-    command:
-        - python
-        - -m
-        - robot
-        - --report
-        - NONE
-        - --outputdir
-        - output
-        - --logtitle
-        - Task log
-        - robot/secrets.robot
+        command:
+            - python
+            - -m
+            - robot
+            - --report
+            - NONE
+            - --outputdir
+            - output
+            - --logtitle
+            - Task log
+            - robot/secrets.robot
 
     # Alternative
     # shell: python -m robot --report NONE --outputdir output  --logtitle "Tasks" output robot/secrets.robot
