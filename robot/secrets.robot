@@ -8,5 +8,5 @@ Library             RPA.Robocorp.Vault
 Get secrets & show with Robocorp
     ${secret} =    RPA.Robocorp.Vault.Get Secret    Gmail
     # Get Secret is case sensitive
-    Log    ${secret}['email']
-    Log    ${secret}['pass']
+    Log    ${secret}[email]
+    Log    ${secret}[pass]
